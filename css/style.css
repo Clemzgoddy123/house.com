@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 6, 43);
+    color: white;
+    padding: 10px 35px;
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    justify-content: space-between;
+    padding: 0 25px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+nav ul li:hover{
+    background-color: #fff;
+    border-radius: 15px;
+    color: royalblue;
+}
+img {
+    height: 60px;
+    border-radius: 50%;
+}
+.hero{
+    background: url(1mg2.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+p{
+    margin-top: 15px;
+}
+.para1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgba(245,177,7);
+}
+.para2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: greenyellow;
+}
+.para3{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    background-color: greenyellow;
+    font-size: medium;
+
+}
+.hero2{
+    background-color: lightskyblue;
+    height: 160vh;
+}
+.para5{
+    text-align: center;
+    font-size: 
+    30px;
+}
+
+.hero-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 80px;
+    background-color: #fff;
+    cursor: pointer;
+    
+    
+}
+.hero5{
+    background: url(image6.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    margin: 50px 0;
+    border-radius: 15px;
+    width: 90%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.hero6{
+    background: url(image7.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    margin: 50px 0;
+    border-radius: 15px;
+    width: 90%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.hero7{
+    background: url(image4.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    margin: 50px 0;
+    border-radius: 15px;
+    width: 90%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.hero8{
+    background: url(image3.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    margin: 50px 0;
+    border-radius: 15px;
+    width: 90%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.btn2{
+    height: 40px;
+    width: 70px;
+    margin-top: 60px;
+    border-radius: 8px;
+    background-color: red;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.btn3{
+    height: 40px;
+    width: 70px;
+    margin-top: 60px;
+    border-radius: 8px;
+    background-color: rgb(33, 228, 228);
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+.hero-section{
+ 
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ align-items: center;
+ gap: 10px;
+ margin-top: 100px;
+ margin-left: 90px;
+ 
+}
+.para9{
+    text-align: center;
+    font-size: 30px;
+    color: #0088ff;
+    font-family: sans-serif;
+    
+}
+.para10{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.icon{
+    height: 300px;
+    width: 80%;
+}
+hr{
+   border: none;
+   border-top: 2px solid black;
+   animation: 2s infinite; 
+}
+video{
+    position: relative;
+    height: 250px;
+    width: 100% ;
+    object-fit: cover;
+    z-index: -1;
+   
+   margin-top: 20px;
+
+}
+@media (max-width:768px) {
+    
+    .hero{
+        height: 100vh;
+
+    }
+    .hero-image{
+     
+        display: grid;
+         grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        align-items: center;
+        background-color: lightskyblue;
+        
+    }
+    .font{
+        display: block;
+        flex-direction: row;
+    }
+    
+}
+.font{
+    float: right;
+    margin: 10px 400px;
+    height: 40px;
+    justify-content: space-between;
+    gap: 40px;
+    
+
+}
